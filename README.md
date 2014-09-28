@@ -13,11 +13,10 @@ $ npm install
 
 ### Features
 
-- Create class
+- Create class and its instance
 - Add methods
 - Describe class
 - Get object
-
 
 ### Examples
 
