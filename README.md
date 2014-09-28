@@ -1,13 +1,13 @@
-_class
+classclass
 ==========
 
-_class brings OOP to your node.js application
+classclass brings OOP to your node.js application
 
 
 ### Installation
 
 ```
-$ npm install 
+$ npm install classclass
 ```
 
 
@@ -21,7 +21,7 @@ $ npm install
 ### Examples
 
 ```javascript
-var _class = require('./src/_class');
+var _class = require('./src/classclass');
 
 var Person = new _class('person', ['name', 'age', 'city']);
 var Animal = new _class('animal', ['name', 'voice', 'color']);
@@ -47,9 +47,6 @@ if(p1.isAdult()) {
 };
 
 console.dir(a1.get());
-
-var Creature = new _class('creature', ['type', 'size']);
-
 ```
 
 ### License

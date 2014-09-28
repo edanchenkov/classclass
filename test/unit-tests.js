@@ -1,11 +1,11 @@
 'use strict'
 
 var should = require('should');
-var _class = require('./../src/_class');
+var _class = require('./../src/classclass');
 
 var Person = new _class('person', ['name', 'age', 'city']);
 
-describe('_class library', function() {
+describe('classclass library', function() {
 
   it('create an instance of class Person', function(done){
     var p1 = Person.new('John', 20, 'London');

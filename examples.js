@@ -1,4 +1,4 @@
-var _class = require('./src/_class');
+var _class = require('./src/classclass');
 
 var Person = new _class('person', ['name', 'age', 'city']);
 var Animal = new _class('animal', ['name', 'voice', 'color']);
